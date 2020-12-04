@@ -1,0 +1,25 @@
+html {
+    background-color: aqua;
+}
+.Navbar h1, ul, li{
+    display: inline;
+}
+
+.Navbar h1 {
+    font-weight: lighter;
+}
+.Navbar ul {
+    padding-right: 25px;
+    float: right;
+}
+.Navbarli {
+    background-color: blueviolet;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.Special {
+    background-color: red;
+    font-weight: lighter;
+    padding: 10px;
+}

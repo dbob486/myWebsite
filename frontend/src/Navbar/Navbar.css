@@ -1,25 +1,53 @@
-html {
-    background-color: aqua;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
+body {
+    background-image: url('../Assets/tokyo.jpg');
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.Space {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Navbar {
+    display: flex;
+}
+
 .Navbar h1, ul, li{
-    display: inline;
+    font-weight: lighter;
 }
 
 .Navbar h1 {
-    font-weight: lighter;
+    padding-left:25px;
+    width: 17%;
+    background-color: palegreen;
 }
 .Navbar ul {
+    width: 83%;
+    display: flex;
+    justify-content: flex-end;
     padding-right: 25px;
-    float: right;
-}
-.Navbarli {
     background-color: blueviolet;
-    font-weight: lighter;
-    padding: 10px;
 }
 
-.Special {
-    background-color: red;
-    font-weight: lighter;
-    padding: 10px;
+.Navbar li {
+    font-weight: 400;
+    padding: 10px 20px;
+    list-style-type: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Nav_link:link {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-decoration: none;
+  }
+
+.Navbar a:hover {
+    color: orange;
 }

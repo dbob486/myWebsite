@@ -1,19 +1,50 @@
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
+import {
+    Route,
+    NavLink,
+    BrowserRouter as Router
+} from 'react-router-dom';
+import HomePage from '../HomePage/HomePage';
+import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Navbar = () => {
     return (
-        <div className='Navbar'>
-            <h1>Daniel Garcia</h1>
-            <ul>
-                <li className='Special'> Home</li>
-                <li className='Navbarli'> About</li>
-                <li className='Navbarli'> Skills</li>
-                <li className='Navbarli'> Portfolio</li>
-                <li className='Navbarli'> Contact</li>
-                <li className='Navbarli'> Resume</li>
-            </ul>
-        </div>
+        <Router>
+
+            <div className='Navbar'>
+                <h1>Daniel <FontAwesomeIcon className='Space' icon={faSpaceShuttle} /> Garcia</h1>
+                <ul className="Navbar-Menu">
+                    <li > <NavLink exact to='/'
+                        className="Nav_link"
+                        activeClassName="activeRoute"
+                        activeStyle={{ color: 'teal' }}
+                    > Home </NavLink> </li>
+                    <li > <NavLink to='/about'
+                        className="Nav_link"
+                        activeClassName="activeRoute"
+                        activeStyle={{ color: 'teal' }}
+                    > About </NavLink></li>
+                    <li > <NavLink to='/portfolio'
+                        className="Nav_link"
+                        activeClassName="activeRoute"
+                        activeStyle={{ color: 'teal' }}> Portfolio </NavLink></li>
+                    <li > <NavLink to='/resume'
+                        className="Nav_link"
+                        activeClassName="activeRoute"
+                        activeStyle={{ color: 'teal' }}> Resume </NavLink></li>
+                </ul>
+            </div>
+
+            <Route exact path='/'>
+                <HomePage />
+            </Route>
+            <Route path='/about'></Route>
+            <Route path='/portfolio'></Route>
+            <Route path='/resume'></Route>
+
+        </Router>
     )
 }
 

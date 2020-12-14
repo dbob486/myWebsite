@@ -1,0 +1,26 @@
+
+.CenterText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.TextName span{
+    color: red;
+    font-size: 75px;
+}
+.TextDesc {
+    color: chartreuse;
+    font-size: 40px
+}
+
+.CenterText h3 {
+    padding-top:15px;
+    font-size: 25px;
+}
+
+.CenterText SocialButtonsContainer {
+    padding-top: 10px;
+}

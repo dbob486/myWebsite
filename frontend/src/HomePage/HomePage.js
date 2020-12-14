@@ -2,6 +2,7 @@ import React from 'react';
 import './HomePage.css'
 import SocialButtonsContainer from 'react-social-media-buttons';
 import { Wave } from 'react-animated-text'
+import Footer from '../Footer/Footer';
 
 const HomePage = () => {
     return (
@@ -26,11 +27,13 @@ const HomePage = () => {
                 />
             </div>
             <SocialButtonsContainer
+                className="Socials"
                 links={['https://www.linkedin.com/in/daniel-garcia-1985201ba/', 'https://github.com/dbob486']}
                 buttonStyle={{ width: '69px', height: '69px', margin: '30px 40px', backgroundColor: '#cce7ff', borderRadius: '30%', border: '3px solid #bfbfbf' }}
                 iconStyle={{ color: '#134d8b' }}
                 openNewTab={true}
             />
+            <Footer/>
         </div>
     )
 }

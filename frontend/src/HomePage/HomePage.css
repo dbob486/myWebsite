@@ -21,6 +21,9 @@
     font-size: 25px;
 }
 
-.CenterText SocialButtonsContainer {
-    padding-top: 10px;
+.CenterText a {
+    transition: 100ms;
+}
+.CenterText a:hover {
+    transform: scale(1.1);
 }

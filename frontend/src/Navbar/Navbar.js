@@ -5,9 +5,10 @@ import {
     NavLink,
     BrowserRouter as Router
 } from 'react-router-dom';
-import HomePage from '../HomePage/HomePage';
 import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//page imports
+import HomePage from '../HomePage/HomePage';
 
 const Navbar = () => {
     return (

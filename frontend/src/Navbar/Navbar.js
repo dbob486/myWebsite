@@ -15,33 +15,27 @@ const Navbar = () => {
         <Router>
 
             <div className='Navbar'>
-                <h1>Daniel <FontAwesomeIcon className='Space' icon={faSpaceShuttle} /> Garcia</h1>
+                <h1> Daniel Garcia </h1>
+                <p> <FontAwesomeIcon className='Space' icon={faSpaceShuttle} /></p>
                 <ul className="Navbar-Menu">
                     <li > <NavLink exact to='/'
                         className="Nav_link"
                         activeClassName="activeRoute"
-                        activeStyle={{ color: 'teal' }}
-                    > Home </NavLink> </li>
-                    <li > <NavLink to='/about'
-                        className="Nav_link"
-                        activeClassName="activeRoute"
-                        activeStyle={{ color: 'teal' }}
-                    > About </NavLink></li>
+                        activeStyle={{ color: ' #001f3f ' }} > Home </NavLink> </li>
                     <li > <NavLink to='/portfolio'
                         className="Nav_link"
                         activeClassName="activeRoute"
-                        activeStyle={{ color: 'teal' }}> Portfolio </NavLink></li>
+                        activeStyle={{ color: ' #001f3f ' }}> Portfolio </NavLink></li>
                     <li > <NavLink to='/resume'
                         className="Nav_link"
                         activeClassName="activeRoute"
-                        activeStyle={{ color: 'teal' }}> Resume </NavLink></li>
+                        activeStyle={{ color: ' #001f3f ' }}> Resume </NavLink></li>
                 </ul>
             </div>
 
             <Route exact path='/'>
                 <HomePage />
             </Route>
-            <Route path='/about'></Route>
             <Route path='/portfolio'></Route>
             <Route path='/resume'></Route>
 

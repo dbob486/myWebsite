@@ -1,29 +1,43 @@
 
-.CenterText {
+.HomePage {
+    padding-bottom: 2.35rem;
+    margin: 0 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 500px;
+    background: url(../Assets/dog.gif);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 5px 1px;
 }
 
-.TextName span{
-    color: red;
-    font-size: 75px;
-}
-.TextDesc {
-    color: chartreuse;
-    font-size: 40px
-}
-
-.CenterText h3 {
-    padding-top:15px;
+.HomePage h3 {
+    padding-top: 15px;
     font-size: 25px;
 }
 
-.CenterText a {
+.HomePage a {
     transition: 100ms;
 }
-.CenterText a:hover {
-    transform: scale(1.1);
+.HomePage a:hover {
+    transform: scale(1.2);
+}
+.MyName span{
+    color: rgba(255, 255, 255, 1); 
+    text-shadow: -2px 5px  #0074D9  , 1px 5px  #0074D9  , 1px 0  #0074D9  , 0 -1px  #0074D9  ;
+    border: '1em solid #DDDDDD';
+    font-size: 75px;
+    font-weight: bolder;
+
+}
+
+.Job {
+    color: rgba(255, 255, 255, 1); 
+    text-shadow: -2px 5px  #0074D9  , 0 1px  #0074D9  , 1px 0  #0074D9  , 0 -1px  #0074D9  ;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.Boxes {
+    width: 80%;
 }

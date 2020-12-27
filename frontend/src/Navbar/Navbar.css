@@ -25,7 +25,7 @@ body {
     font-weight: 500;
     display: flex;
     align-items: flex-start;
-    padding-top: .5%;
+    padding-top: .3%;
     padding-left: 2%;
     width:15%;
 }
@@ -87,6 +87,7 @@ body {
 
     .Navbar > h1 {
         width: 350px;
+        padding-left: 20%;
     } 
 
     .Navbar > p {

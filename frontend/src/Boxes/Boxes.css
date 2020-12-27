@@ -8,7 +8,7 @@
     color: white;
     font-size: 1.5em;
     background-color: rgba(113, 95, 231, 0.822);
-    padding: 1em 3em 3em 3em;
+    padding: 1em 3em 2em 3em;
     text-align: center;
     border-radius: 15px 15px 15px 15px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 1px 3px;
@@ -29,15 +29,15 @@
     color: white;
     background-color: rgba(113, 95, 231, 0.616);
     align-self: center;
-    margin: 3em 1em;
-    padding: 1% 2% 2% 2%;
+    margin: 2em 1em;
+    padding: 1% 2% 1.6% 2%;
     border-radius: 30px 30px 30px 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 1px 3px;
 }
 
 .BoxTwo > h2 {
     font-size: 2em;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
 }
 
 .Email{

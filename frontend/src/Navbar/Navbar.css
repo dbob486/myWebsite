@@ -12,6 +12,7 @@ body {
 .Navbar {
     display: flex;
     flex-direction: row;
+    height: 10%;
 }
 
 .Navbar h1, ul, li{
@@ -24,7 +25,8 @@ body {
     font-weight: 500;
     display: flex;
     align-items: flex-start;
-    padding-left: 25px;
+    padding-top: .5%;
+    padding-left: 2%;
     width:15%;
 }
 
@@ -36,7 +38,9 @@ body {
     align-items: center;
     text-align: center;
     font-size: 2.2rem;
-    padding-left: 180px;
+    padding-left: 11%;
+    padding-top: .2%;
+
 
 }
 
@@ -48,7 +52,7 @@ body {
     width: 25%;
     display: flex;
     justify-content: flex-end;
-    padding-right: 25px;
+    padding-right: 2%;
 
 }
 
@@ -82,7 +86,6 @@ body {
     }
 
     .Navbar > h1 {
-        padding-left: 90px;
         width: 350px;
     } 
 

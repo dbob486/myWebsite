@@ -9,6 +9,7 @@ import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //page imports
 import HomePage from '../HomePage/HomePage';
+import PortfolioPage from '../PortfolioPage/PortfolioPage';
 
 const Navbar = () => {
     return (
@@ -36,7 +37,9 @@ const Navbar = () => {
             <Route exact path='/'>
                 <HomePage />
             </Route>
-            <Route path='/portfolio'></Route>
+            <Route path='/portfolio'>
+                <PortfolioPage />
+            </Route>
             <Route path='/resume'></Route>
 
         </Router>

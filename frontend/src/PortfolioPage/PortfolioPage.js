@@ -29,20 +29,49 @@ const PortfolioPage = () => {
             </div>
             <div className='Skills'>
                 <h1>Skills</h1>
-
                 <div className='FirstRowSkills'>
-                    <FaReact />
-                    <FaJava />
-                    <CgCPlusPlus />
-                    <SiMysql />
-                    <SiJavascript />
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>React</p>
+                        <FaReact />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>Java</p>
+                        <FaJava />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>C/C++</p>
+                        <CgCPlusPlus />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>MySQL</p>
+                        <SiMysql />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>JavaScript</p>
+                        <SiJavascript />
+                    </div>
                 </div>
                 <div className='SecondRowSkills'>
-                    <GrGithub />
-                    <GrDocker />
-                    <DiGit />
-                    <FaAws />
-                    <img src='https://cdn.worldvectorlogo.com/logos/go-6.svg' alt='golang'/>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>Github</p>
+                        <GrGithub />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>Docker</p>
+                        <GrDocker />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>Git</p>
+                        <DiGit />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>AWS</p>
+                        <FaAws />
+                    </div>
+                    <div className='SkillIcon'>
+                        <p className='HideIcon'>Golang</p>
+                        <img src='https://cdn.worldvectorlogo.com/logos/go-6.svg' alt='golang' />
+                    </div>
                 </div>
             </div>
         </div >

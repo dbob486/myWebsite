@@ -5,8 +5,7 @@ import {
     NavLink,
     BrowserRouter as Router
 } from 'react-router-dom';
-import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaSpaceShuttle } from 'react-icons/fa';
 //page imports
 import HomePage from '../HomePage/HomePage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
@@ -17,7 +16,7 @@ const Navbar = () => {
 
             <div className='Navbar'>
                 <h1> Daniel Garcia </h1>
-                <p> <FontAwesomeIcon className='Space' icon={faSpaceShuttle} /></p>
+                <p> <FaSpaceShuttle className='Space' /> </p>
                 <ul className="Navbar-Menu">
                     <li > <NavLink exact to='/'
                         className="Nav_link"

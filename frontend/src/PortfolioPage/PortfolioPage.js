@@ -11,21 +11,25 @@ import { CgCPlusPlus } from "react-icons/cg";
 const PortfolioPage = () => {
     return (
         < div className='PortfolioPage' >
+            <h1>Projects</h1>
             <div className='Projects'>
-                <h1>Projects</h1>
-                <div className='ProjectNames'>
-                    <p>SnippetBox</p>
-                    <span />
-                    <p>RG Remodels</p>
+                <div className='SnippetBox'>
+                    <a href='https://github.com/dbob486/snippetBox' target="blank">
+                        <p>SnippetBox</p>
+                        <RiScissors2Line />
+                    </a>
                 </div>
-                <div className='ProjectIcons'>
-                    <a> <RiScissors2Line /> </a>
-                    <span />
-                    <a> <BsHouseFill /> </a>
+                <span />
+                <div className='RGRemodels'>
+                    <a href='https://github.com/dbob486/rgremodels' target="blank">
+                        <p>RG Remodels</p>
+                        <BsHouseFill />
+                    </a>
                 </div>
             </div>
             <div className='Skills'>
                 <h1>Skills</h1>
+
                 <div className='FirstRowSkills'>
                     <FaReact />
                     <FaJava />
@@ -38,6 +42,7 @@ const PortfolioPage = () => {
                     <GrDocker />
                     <DiGit />
                     <FaAws />
+                    <img src='https://cdn.worldvectorlogo.com/logos/go-6.svg' alt='golang'/>
                 </div>
             </div>
         </div >

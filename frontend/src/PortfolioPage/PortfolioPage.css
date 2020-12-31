@@ -8,14 +8,8 @@
     box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 5px 1px;
 }
 
-.Projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.Projects > h1 {
-    margin: .3em 1em 1em 1em;
+.PortfolioPage > h1 {
+    margin: .3em 1em .3em 1em;
     color: rgba(255, 255, 255, 1); 
     text-shadow: -2px 5px  #0074D9  , 1px 5px  #0074D9  , 1px 0  #0074D9  , 0 -1px  #0074D9  ;
     border: '1em solid #DDDDDD';
@@ -23,43 +17,16 @@
     font-weight: bolder;
 }
 
-.ProjectNames {
+.Projects {
     display: flex;
     flex-direction: row;
-    margin: 0 0;
+    align-items: center;
+    margin: 0 0 2em 0;
 }
 
-.ProjectNames > p {
-    font-size:20px;
-    font-weight: bolder;
-}
-
-.ProjectNames > p:hover {
-    transform:scale(1.2);
-    cursor: pointer;
-}
-
-.ProjectNames > span {
-    margin: 0 5em;
-}
-
-.ProjectIcons {
-    display: flex;
-    flex-direction: row;
-}
-
-.ProjectIcons > a {
-    margin: 0 0;
-    padding: 0 0;
-}
-
-.ProjectIcons > a:hover {
-    transform:scale(1.2);
-    cursor: pointer;
-}
-
-.ProjectIcons > a > svg {
-    align-content: center;
+.Projects > div > a > svg {
+    color: black;
+    text-align: center;
     font-size: 115px;
     background-color: rgba(127, 255, 212, 0.7);
     margin: 0 0;
@@ -68,8 +35,49 @@
     box-shadow: rgba(0, 0, 0, 1) 0px 0px 1px 3px;
 }
 
-.ProjectIcons > span {
-    margin: 0 4em;
+.SnippetBox > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.SnippetBox > a > p {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace, monospace;
+    color: rgb(7, 7, 117); 
+}
+
+.SnippetBox:hover {
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+.Projects > span {
+    margin: 0 20em;
+}
+
+.RGRemodels > a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.RGRemodels > a > p {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    color: gold; 
+    font-family: 'Courier New', Courier, monospace, monospace;
+}
+
+.RGRemodels:hover {
+    transform:scale(1.2);
+    cursor: pointer;
 }
 
 .Skills {
@@ -92,7 +100,7 @@
 }
 
 .FirstRowSkills > svg {
-    font-size: 100px;
+    font-size: 6.25em;
     text-align: center;
     color: black;
     background-color: rgba(48, 133, 230, 0.8);
@@ -116,6 +124,20 @@
     align-self: center;
     margin: .5em .2em 2em ;
     padding: 2% 2% 2% 2%;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 0px 1px 3px;
+}
+
+.SecondRowSkills img{
+    height: 100px;
+    width: 100px;
+    transform: scale(1);
+    text-align: center;
+    color: black;
+    background-color: rgba(48, 133, 230, 0.8);
+    align-self: center;
+    margin: 0em 1em 9.5em;
+    padding: 2% 1.5% 2%;
     border-radius: 30px 30px 30px 30px;
     box-shadow: rgba(0, 0, 0, 1) 0px 0px 1px 3px;
 }

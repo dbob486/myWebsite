@@ -28,9 +28,6 @@ const PortfolioPage = () => {
                 </div>
             </div>
             <div className='Skills'>
-<<<<<<< AD
-                <SiJavascript>JavaScript</SiJavascript>
-=======
                 <h1>Skills</h1>
                 <div className='FirstRowSkills'>
                     <div className='SkillIcon'>
@@ -76,7 +73,6 @@ const PortfolioPage = () => {
                         <img src='https://cdn.worldvectorlogo.com/logos/go-6.svg' alt='golang' />
                     </div>
                 </div>
->>>>>>> 73a617f17d74a86ce3a52431413cdec67daa23a8
             </div>
         </div >
     )

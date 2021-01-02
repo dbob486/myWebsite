@@ -8,7 +8,7 @@ const PortfolioPage = () => {
                 <div>SnippetBox</div>
             </div>
             <div className='Skills'>
-                <div>JavaScript</div>
+                <SiJavascript>JavaScript</SiJavascript>
             </div>
     </div >
     )

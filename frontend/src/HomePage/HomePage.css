@@ -19,6 +19,13 @@
     margin: 0% 0%;
 }
 
+.Job {
+    color: rgba(255, 255, 255, 1); 
+    text-shadow: -2px 5px  #0074D9  , 0 1px  #0074D9  , 1px 0  #0074D9  , 0 -1px  #0074D9  ;
+    font-size: 2.8125em;
+    font-weight: bold;
+}
+
 .HomePage a {
     transition: 100ms;
 }
@@ -26,13 +33,7 @@
     transform: scale(1.2);
 }
 
-.Job {
-    color: rgba(255, 255, 255, 1); 
-    text-shadow: -2px 5px  #0074D9  , 0 1px  #0074D9  , 1px 0  #0074D9  , 0 -1px  #0074D9  ;
-    font-size: 45px;
-    font-weight: bold;
-}
-
 .Boxes {
     width: 80%;
+    margin-bottom: .1em;
 }

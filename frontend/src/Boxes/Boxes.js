@@ -7,13 +7,13 @@ const Boxes = () => {
             <div className='BoxOne'>
                 <h2> About me -- Self-Taught developer. </h2>
                 <div className='Description'>
-                    After attending University for 2 years I struggled financially hindering my continuation. <br />
+                    After attending University for 3 years I struggled financially hindering my continuation. <br />
                     That is when I began the tough road of self-teaching.
                     Along the way I realized the difficulty of not being able to ask anyone other than google for help.
                     So I decided to attend a Software Engineering bootcamp called 42 in Silicon Valley. This is where I learned how
                     to coordinate in teams articulating solutions for various problems through a project based curriculum.
                     After sometime I realized that I wanted to continue along the web development path.
-                    So utitlizing online resources such as Udemy and other training courses I was able to learn and will continue advancing in
+                    So utilizing online resources such as Udemy and other training courses I was able to learn and will continue advancing in
                     FullStack development.
                 </div>
             </div>

@@ -9,6 +9,7 @@ import { FaSpaceShuttle } from 'react-icons/fa';
 //page imports
 import HomePage from '../HomePage/HomePage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
+import ResumePage from '../ResumePage/ResumePage';
 
 const Navbar = () => {
     return (
@@ -39,8 +40,9 @@ const Navbar = () => {
             <Route path='/portfolio'>
                 <PortfolioPage />
             </Route>
-            <Route path='/resume'></Route>
-
+            <Route path='/resume'>
+                <ResumePage />
+            </Route>
         </Router>
     )
 }

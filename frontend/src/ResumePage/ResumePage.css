@@ -1,0 +1,20 @@
+.ResumePage {
+    margin: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../Assets/canvas.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 5px 1px;
+}
+
+.Pin {
+    color:  aqua;
+    margin: .5em 0 .2em 0;
+    font-size: 4em;
+}
+.Resume {
+    width: 60%;
+    height: 45em;
+    margin: 0 0 7em 0;
+}

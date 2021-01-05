@@ -162,3 +162,72 @@
     border-radius: 30px 30px 30px 30px;
     box-shadow: rgba(0, 0, 0, 1) 0px 0px 1px 3px;
 }
+
+    /* For tablets: */
+@media only screen and (max-width:800px) {
+
+    .PortfolioPage {
+        margin: 0 0;
+        height: 100vh;
+        font-size: .6em;
+    }
+
+    .PortfolioPage > h1 {
+        margin-bottom: 1em;
+    }
+    
+    .Projects {
+        margin-bottom: 3em;
+    }
+
+    .Projects > div > a > svg {
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .Skills > h1 {
+        margin-bottom: 1em;
+    }
+    
+    .HideIcon {
+        text-shadow: -2px 1px  rgb(14, 173, 221) , 1px 3px rgb(14, 173, 221)  , 1px 0  rgb(14, 173, 221)  , 0 -1px  rgb(14, 173, 221)  ;
+        border: '1em solid #DDDDDD';
+        visibility: visible;
+    }
+
+    .FirstRowSkills {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .FirstRowSkills > div > svg {
+        margin: 0em .5em .5em;
+        border-radius: 15px 15px 15px 15px;
+                box-shadow: rgba(0, 0, 0, 1) 0px 0px 1px 3px;
+    }
+    
+    .SecondRowSkills {
+        margin: 0 0;
+
+    }
+    .SecondRowSkills > div > svg {
+        margin: 0em .5em .5em;
+        border-radius: 7px 7px 7px 7px;
+        box-shadow: rgba(0, 0, 0, 1) 0px 0px 1px 3px;
+    }
+    
+    .SecondRowSkills img{
+        border-radius: 7px 7px 7px 7px;
+        box-shadow: rgba(0, 0, 0, 1) 0px 0px 1px 3px;
+    }
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .PortfolioPage {
+        height: 100vh;
+        font-size: .5em;
+    }
+    
+    .Projects > span{
+        margin: 0 4em;
+    }
+}

@@ -20,3 +20,25 @@
     height: 45em;
     margin: 0 0 7em 0;
 }
+
+/* For tablets: */
+@media only screen and (max-width:800px) {
+
+    .ResumePage {
+        margin: 0 0;
+        height: 100vh;
+    }
+
+    .Resume {
+        height: 100vh;
+        width: 95vw;
+    }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width:600px) {
+    .Resume {
+        height: 100vh;
+        width: 95vw;
+    }
+}

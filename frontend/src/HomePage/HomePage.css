@@ -1,5 +1,6 @@
 
 .HomePage {
+    transition: 1000ms;
     height:100vh;
     margin: 0% 5%;
     display: flex;
@@ -11,7 +12,7 @@
     box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 5px 1px;
 }
 
-.MyName span{
+.MyName {
     color: rgba(255, 255, 255, 1); 
     text-shadow: -2px 5px  #0074D9  , 1px 5px  #0074D9  , 1px 0  #0074D9  , 0 -1px  #0074D9  ;
     border: '1em solid #DDDDDD';
@@ -35,5 +36,43 @@
 }
 
 .Boxes {
+    transition: 1000ms;
     width: 80%;
+}
+
+@media only screen and (max-width: 1380px) {
+    .HomePage {
+        transition: 1000ms;
+        margin: 0 0;
+    }
+
+    .Boxes {
+        transition: 1000ms;
+        width: 100%;
+        overflow: clip;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .HomePage {
+        height: 90vh;
+        font-size: small;
+    }
+
+    .MyName {
+        margin: 0 0;
+        font-size: 3em;
+    }
+
+    .Job {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .HomePage {
+        height: 170vh;
+    }
+    
 }

@@ -43,6 +43,7 @@ const Navbar = () => {
             <Route path='/resume'>
                 <ResumePage />
             </Route>
+
         </Router>
     )
 }

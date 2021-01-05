@@ -55,6 +55,10 @@ const PortfolioPage = () => {
                             <p className='HideIcon'>JavaScript</p>
                             <SiJavascript />
                         </div>
+                        <div className='SkillIcon'>
+                            <p className='HideIcon'>Vercel</p>
+                            <IoLogoVercel />
+                        </div>
                     </div>
                     <div className='SecondRowSkills'>
                         <div className='SkillIcon'>
@@ -72,6 +76,10 @@ const PortfolioPage = () => {
                         <div className='SkillIcon'>
                             <p className='HideIcon'>AWS</p>
                             <FaAws />
+                        </div>
+                        <div className='SkillIcon'>
+                            <p className='HideIcon'>Nginx</p>
+                            <DiNginx />
                         </div>
                         <div className='SkillIcon'>
                             <p className='HideIcon'>Golang</p>

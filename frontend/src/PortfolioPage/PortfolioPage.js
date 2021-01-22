@@ -11,6 +11,9 @@ import { BsHouseFill } from "react-icons/bs";
 import { DiGit, DiNginx } from "react-icons/di";
 import { CgCPlusPlus } from "react-icons/cg";
 import { IoLogoVercel } from "react-icons/io5";
+import { Icon, InlineIcon } from '@iconify/react';
+import nextjsIcon from '@iconify-icons/logos/nextjs';
+
 
 const PortfolioPage = () => {
     if (isBrowser) {
@@ -78,8 +81,8 @@ const PortfolioPage = () => {
                             <FaAws />
                         </div>
                         <div className='SkillIcon'>
-                            <p className='HideIcon'>Nginx</p>
-                            <DiNginx />
+                            <p className='HideIcon'>Next JS</p>
+                            <Icon className='NextJs'icon={nextjsIcon} />
                         </div>
                         <div className='SkillIcon'>
                             <p className='HideIcon'>Golang</p>
